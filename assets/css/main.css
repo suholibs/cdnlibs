@@ -8444,3 +8444,13 @@ nav.sidebar-menu ul li a:hover {
     opacity: 0;
   }
 }
+body::-webkit-scrollbar {
+  width: 16px;
+}
+body::-webkit-scrollbar-track {
+  background: #151f30;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #2f80ed;
+  outline: 1px solid #151f30;
+}
